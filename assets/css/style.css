@@ -1,6 +1,15 @@
 body {
     margin-top: 20px;
 }
+#main {
+    background-color: rgb(253, 115, 115);
+}
+#secondary {
+    background-color: rgb(123, 245, 123);
+}
+#others {
+    background-color: rgb(127, 203, 250);
+}
 .timeline_area {
     position: relative;
     z-index: 1;
