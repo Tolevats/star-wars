@@ -1,6 +1,15 @@
 body {
     margin-top: 20px;
 }
+#ch-main {
+    background-color: rgb(253, 115, 115);
+}
+#ch-secondary {
+    background-color: rgb(123, 245, 123);
+}
+#ch-other {
+    background-color: rgb(127, 203, 250);
+}
 .timeline_area {
     position: relative;
     z-index: 1;
@@ -117,4 +126,13 @@ body {
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
     color: #3f43fd;
+}
+.single-timeline-area .single-timeline-content .timeline-icon.main { 
+    background-color: rgb(253, 115, 115); /* Main characters color */
+}
+.single-timeline-area .single-timeline-content .timeline-icon.secondary { 
+    background-color: rgb(123, 245, 123); /* Secondary characters color */
+}
+.single-timeline-area .single-timeline-content .timeline-icon.other { 
+    background-color: rgb(127, 203, 250); /* Other characters color */
 }
