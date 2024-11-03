@@ -10,6 +10,23 @@ body {
 #others {
     background-color: rgb(127, 203, 250);
 }
+.character-container {
+    padding-top: 10px;
+}
+.character-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.character-card h5 {
+    margin: 0;
+}
+.character-card p {
+    margin: 0;
+    font-size: 0.9em;
+}
 .timeline_area {
     position: relative;
     z-index: 1;
