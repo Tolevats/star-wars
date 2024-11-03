@@ -1,31 +1,14 @@
 body {
     margin-top: 20px;
 }
-#main {
+#ch-main {
     background-color: rgb(253, 115, 115);
 }
-#secondary {
+#ch-secondary {
     background-color: rgb(123, 245, 123);
 }
-#others {
+#ch-other {
     background-color: rgb(127, 203, 250);
-}
-.character-container {
-    padding-top: 10px;
-}
-.character-card {
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-}
-.character-card h5 {
-    margin: 0;
-}
-.character-card p {
-    margin: 0;
-    font-size: 0.9em;
 }
 .timeline_area {
     position: relative;
@@ -143,4 +126,13 @@ body {
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
     color: #3f43fd;
+}
+.single-timeline-area .single-timeline-content .timeline-icon.main { 
+    background-color: rgb(253, 115, 115); /* Main characters color */
+}
+.single-timeline-area .single-timeline-content .timeline-icon.secondary { 
+    background-color: rgb(123, 245, 123); /* Secondary characters color */
+}
+.single-timeline-area .single-timeline-content .timeline-icon.other { 
+    background-color: rgb(127, 203, 250); /* Other characters color */
 }
